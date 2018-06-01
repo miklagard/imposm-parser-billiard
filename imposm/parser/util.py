@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import contextlib
-import multiprocessing
+import billiard as multiprocessing
 import subprocess
 
 try:
